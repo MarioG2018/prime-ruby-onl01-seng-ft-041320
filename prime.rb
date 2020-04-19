@@ -12,3 +12,17 @@
 #    true
 #end
 
+def prime?(int)
+  if(int<2)
+    return false
+  else
+   (2...int).each do |n|
+       if(int%n==0)
+          return false
+      else
+        return true
+      end
+       end
+  end
+  return true
+end
