@@ -4,10 +4,10 @@ def prime?(int)
     return false
   end
 
-  (1...int).each do |n|
+  (2...int).each do |n|
     if(int%n==0)
       return false
     end
-    true
     end
+    true
 end
